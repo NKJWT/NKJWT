@@ -6,10 +6,10 @@ language: objective-c
 # cache: cocoapods
 podfile: Podfile
 before_install:
-# - gem install cocoapods # Since Travis is not always on latest version
+- gem install cocoapods # Since Travis is not always on latest version
 - pod install
 install:
 - gem install xcpretty --no-rdoc --no-ri --no-document --quiet
 script:
-- set -o pipefail && xcodebuild test -workspace NKJWT.xcworkspace -scheme NKJWT -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO | xcpretty -c
+- set -o pipefail && xcodebuild test -workspace NKJWT.xcworkspace -scheme NKJWT -sdk iphonesimulator7.0 ONLY_ACTIVE_ARCH=NO | xcpretty -c
 - pod lib lint --quick
