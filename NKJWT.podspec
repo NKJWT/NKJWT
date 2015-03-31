@@ -13,8 +13,7 @@ Pod::Spec.new do |s|
   s.author             = "Dmitrii Ivashko"
   s.platform     = :ios, "7.0"
 
-  #s.source       = { :git => "https://github.com/NKJWT/NKJWT.git", :tag => "v#{s.version.to_s}" }
-  s.source       = { :git => "https://github.com/NKJWT/NKJWT.git", :branch => "master" }
+  s.source       = { :git => "https://github.com/NKJWT/NKJWT.git", :tag => "v#{s.version.to_s}" }
 
   s.source_files  = "src/**/*.{h,m}"
   s.public_header_files = "src/**/*.h"
