@@ -12,5 +12,5 @@ before_install:
 install:
 - gem install xcpretty --no-rdoc --no-ri --no-document --quiet
 script:
-- set -o pipefail && xcodebuild -workspace NKJWT.xcworkspace -scheme NKJWT -sdk iphonesimulator test | xcpretty -c
+- xctool test -workspace NKJWT.xcworkspace -scheme NKJWT -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
 - pod lib lint --quick
