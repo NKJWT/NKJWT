@@ -3,6 +3,7 @@
 # * https://github.com/supermarin/xcpretty#usage
 
 language: objective-c
+xcode_workspace: NKJWT.xcworkspace
 # cache: cocoapods
 podfile: Podfile
 before_install:
@@ -11,5 +12,5 @@ before_install:
 install:
 - gem install xcpretty --no-rdoc --no-ri --no-document --quiet
 script:
-- set -o pipefail && xcodebuild test -workspace NKJWT.xcworkspace -scheme NKJWT -freshSimulator -freshInstall -sdk iphonesimulator7.0 ONLY_ACTIVE_ARCH=NO | xcpretty -c
+- set -o pipefail && xcodebuild -workspace NKJWT.xcworkspace -scheme NKJWT -sdk iphonesimulator test | xcpretty -c
 - pod lib lint --quick
