@@ -2,13 +2,13 @@
 
 ## Contents:
 
-- Why NKJWT?
-- User Guide
-    - Verifying Token
-        - Getting Payload from token
-        - Creating token
-        - Signing and getting signed token
-        - Updating payload
+- [Why NKJWT?](#why-nkjwt)
+- [User Guide](#user-guide)
+    - [Verifying Token](#verifying-token)
+    - [Getting Payload from token](#getting-payload-from-token)
+    - [Creating token](#creating-token)
+    - [Signing and getting signed token](#signing-and-getting-signed-token)
+    - [Updating payload](#updating-payload)
 
 ## Why NKJWT?
 
@@ -75,3 +75,4 @@ NSString *token = [jwt token];
 [jwt signWithKey:key];
 NSString *newToken = [jwt token];
 ```
+
