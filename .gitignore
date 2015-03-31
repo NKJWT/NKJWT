@@ -1,3 +1,6 @@
+Pods
+*.xcworkspace
+Podfile.lock
 .DS_Store
 .idea
 *.pbxuser
