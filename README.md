@@ -1,4 +1,4 @@
-![pod version](https://img.shields.io/cocoapods/v/NKJWT.svg) ![pod license](https://img.shields.io/cocoapods/l/NKJWT.svg) ![pod platform](https://img.shields.io/cocoapods/p/NKJWT.svg)
+![pod version](https://img.shields.io/cocoapods/v/NKJWT.svg) ![pod license](https://img.shields.io/cocoapods/l/NKJWT.svg) ![pod platform](https://img.shields.io/cocoapods/p/NKJWT.svg) ![JWT specifications support](https://img.shields.io/badge/JWT_Support-Partial-red.svg)
 
 # NKJWT
 
