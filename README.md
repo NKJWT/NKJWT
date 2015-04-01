@@ -1,9 +1,12 @@
+![pod version](https://img.shields.io/cocoapods/v/NKJWT.svg) ![pod license](https://img.shields.io/cocoapods/l/NKJWT.svg) ![pod platform](https://img.shields.io/cocoapods/p/NKJWT.svg)
+
 # NKJWT
 
 ## Contents:
 
 - [Why NKJWT?](#why-nkjwt)
 - [User Guide](#user-guide)
+    - [Installation](#installation)
     - [Verifying Token](#verifying-token)
     - [Getting Payload from token](#getting-payload-from-token)
     - [Creating token](#creating-token)
@@ -15,6 +18,14 @@
 JWT (JSON Web Token) is an amazing technology, which makes network / API integration extremely easy and fast. This library allows you to get all benefits of JWT with only a few lines of code.
 
 ## User Guide
+
+### Installation
+
+Add to your Podfile:
+
+```ruby
+pod 'NKJWT', '~> 0.1'
+```
 
 ### Verifying Token
 
